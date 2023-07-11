@@ -1,0 +1,8 @@
+#i1{
+    background-image:url("//www.aiet.org.in/wp-content/uploads/2019/08/banner.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    background-color: rgb(185, 167, 185);;
+}
