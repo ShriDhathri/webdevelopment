@@ -35,3 +35,63 @@ li{
     font-size: 1.3rem;
 
 }
+.container{
+    min-height: 75vh;
+    /* background-color: black; */
+    color: white;
+    /* font-family:'Courier New', Courier;
+    font-size: medium;
+    font-weight: lighter; */
+    display: flex;
+    /* background-image: url(bg.jpg); */
+
+    
+}
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: rgb(7, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    /* justifycontent aligns the text at the centre of the container */
+    align-items: center;
+    flex-direction: column;
+    /* icons will come down the playbar */
+    
+}
+.margin{
+    margin-top: 50px;
+}
+.icons i{
+    cursor: pointer;
+    /* will show hand cursor to play and pause */
+}
+#progressBar{
+    width: 80vw;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+.songitem img{
+    width: 30px;
+    margin: 0px 23px;
+    border-radius: 34px;
+
+}
+.timestamp{
+    margin: 0 23px;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 30px;
+}
