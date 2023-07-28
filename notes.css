@@ -1,0 +1,12 @@
+.container{
+    height: 100px;
+    width: 20p0x;
+    background-color: black;
+    color: white;
+}
+.panels{
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    color: white;
+}

@@ -35,27 +35,29 @@ li{
     font-size: 1.3rem;
 
 }
-.container{
+.container {
+    /* justify-content: center; */
     min-height: 75vh;
     /* background-color: black; */
     color: white;
-    /* font-family:'Courier New', Courier;
+    font-family:'Courier New', Courier;
     font-size: medium;
-    font-weight: lighter; */
+    font-weight: lighter;
     display: flex;
-    /* background-image: url(bg.jpg); */
+    background: black url(bg.jpg) no-repeat fixed center;
+    position:static; 
 
-    
 }
+    
 .bottom{
     position: sticky;
     height: 120px;
-    background-color: rgb(7, 0, 0);
-    color: white;
+    background-color: rgb(7, 1, 1);
+    color: rgb(248, 241, 241);
     display: flex;
     justify-content: center;
     bottom: 0;
-    /* justifycontent aligns the text at the centre of the container */
+     /* justifycontent aligns the text at the centre of the container */
     align-items: center;
     flex-direction: column;
     /* icons will come down the playbar */
@@ -69,17 +71,27 @@ li{
     /* will show hand cursor to play and pause */
 }
 #progressBar{
-    width: 80vw;
-}
-.songitem{
-    height: 50px;
-    display: flex;
+    visibility:visible;
+    width: 20rem;
+    /* 1rem = 10px */
+    color:rgb(14, 9, 9);
     background-color: white;
-    color: black;
+    cursor: pointer;
+   
+}
+
+.songitem{
+    /* will apply for each song pannel */
+    height: 50px;
+    width: 350px;
+    background-color: white;
+    color: rgb(8, 0, 0);
     margin: 12px 0;
     justify-content: space-between;
     align-items: center;
     border-radius: 34px;
+    display: flex;
+
 
 }
 .songitem img{
@@ -93,5 +105,11 @@ li{
     cursor: pointer;
 }
 .songitemcontainer{
+    /* will apply for whole song pannels */
     margin-top: 30px;
+    /* position: absolute;
+    left: auto; */
+    align-items: center;
 }
+ 
+ 
